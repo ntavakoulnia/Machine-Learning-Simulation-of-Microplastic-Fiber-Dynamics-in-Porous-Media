@@ -1,5 +1,7 @@
 # Machine Learning Simulation of Microplastic Fiber Dynamics in Porous Media
 
+![Predicting Microfiber Path with Machine Learning-VEED](https://github.com/user-attachments/assets/97dac43d-5885-45e7-b5bc-7b2f18185b79)
+
 This project uses machine learning to predict the movement and localization of microplastic fibers within porous media, combining data processing, predictive modeling, and 3D visualization to simulate fiber dynamics in realistic environments.
 
 ## System Components
