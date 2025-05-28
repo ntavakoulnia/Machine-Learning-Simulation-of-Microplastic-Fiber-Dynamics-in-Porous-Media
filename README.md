@@ -80,8 +80,8 @@ pip install -r requirements.txt
 - `create_training_data.m`: MATLAB script for processing simulation data and creating training.csv
 - `Fiber_Predictions.py`: Python file for model training and prediction
 - `3D_Visulization.py`: Python file for 3D visualization
-- `x_train.csv`: Sample training input data for all fibers with case numbers of 0.1
-- `y_train.csv`: Sample training output data for all fibers with case numbers of 0.1
+- `x_train.csv`: Sample training input data for all fibers with case numbers of 0.15
+- `y_train.csv`: Sample training output data for all fibers with case numbers of 0.15
 - `actualvalues.csv`: Actual fiber paths for comparison from Simulation
 - `predictedvalues.csv`: Model predicted fiber paths based on the training data for Simulation
 
