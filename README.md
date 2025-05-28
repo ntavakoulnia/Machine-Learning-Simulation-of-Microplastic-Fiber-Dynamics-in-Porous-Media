@@ -82,13 +82,16 @@ pip install -r requirements.txt
 - `3D_Visulization.py`: Python file for 3D visualization
 - `x_train.csv`: Sample training input data for all fibers with case numbers of 0.15
 - `y_train.csv`: Sample training output data for all fibers with case numbers of 0.15
+- `vtkRead/`: Directory containing VTK file reading utilities
+  - Contains functions to read and process fiber VTK simulation files for create_training_data.m script
+  - Handles data extraction and formatting for training
 - `actualvalues.csv`: Actual fiber paths for comparison from Simulation
 - `predictedvalues.csv`: Model predicted fiber paths based on the training data for Simulation
 
 ## Usage Notes
 
 - Adjust file paths in the notebooks to match your local directory structure
-- The model currently predicts paths for 3 randomly selected fibers (can be modified)
+- The model currently predicts paths for 1 randomly selected fiber (can be modified)
 - Visualization parameters (colors, opacity, camera angles) can be customized
 
 ## Demonstration
