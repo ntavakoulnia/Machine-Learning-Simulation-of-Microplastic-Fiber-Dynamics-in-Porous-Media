@@ -64,6 +64,7 @@ cd Machine-Learning-Simulation-of-Microplastic-Fiber-Dynamics-in-Porous-Media
 1. Run `3D_Visulization.py` to create the 3D animation
 2. The animation shows both predicted and actual fiber paths through the porous media
 
+### Order to Run
 ```bash
 python Fiber_Predictions.py
 python 3D_Visualization.py
