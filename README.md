@@ -49,10 +49,6 @@ The system consists of three main components:
 git clone https://github.com/yourusername/Machine-Learning-Simulation-of-Microplastic-Fiber-Dynamics-in-Porous-Media.git
 cd Machine-Learning-Simulation-of-Microplastic-Fiber-Dynamics-in-Porous-Media
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-
 ````
 ## Setup Process
 
@@ -67,6 +63,11 @@ pip install -r requirements.txt
 ### Visualize Results
 1. Run `3D_Visulization.py` to create the 3D animation
 2. The animation shows both predicted and actual fiber paths through the porous media
+
+```bash
+python Fiber_Predictions.py
+python 3D_Visualization.py
+```
 
 ## Key Features
 
